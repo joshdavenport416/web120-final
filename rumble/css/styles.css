@@ -1,0 +1,406 @@
+/* Style Sheet for Rumble Interiors */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p {
+    margin-bottom: 20px;
+    line-height:1.5;
+    font-family: verdana;
+    
+}
+
+
+body {
+    background: white;
+    color: black;
+    font-family: serif;
+    width: 100%;
+}
+
+#wrapper {
+    width:98%;
+    margin:0 auto;
+    background:white;
+    overflow:hidden;
+    padding: 20px;
+    color: black;
+}
+
+header {   
+    overflow: hidden;   
+    margin-bottom: 30px;
+}
+
+#logo {
+    height: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.book{
+    margin-top: 20px;
+}
+
+#social {
+    float: right;
+}
+
+#social li {
+    float: left;
+    list-style-type: none;
+    margin: 40px 0 0 15px;
+}
+
+main {   
+    width: 65%;
+    float: left;
+    margin:auto;
+    padding-bottom: 20px;
+}
+
+aside {
+    width: 33.3%;
+    float: right; 
+    margin:auto;
+    padding-left: 25px;
+}
+
+aside p {
+    font-size: 0.9em;
+}
+
+header h1 {
+    text-align: center;
+    margin: 35px 0 35px 0;
+    color:rgb(151, 144, 68);
+}
+
+header h2 {
+    text-align: center;
+    margin: 30px 0 30px 0;
+    color:rgb(151, 144, 68,0.8);    
+}
+
+h2 {
+    margin: 20px 0 10px 0;
+    color:rgb(151, 144, 68);
+}
+
+h3 {
+    margin: 5px 0 5px 0;
+    color:rgb(151, 144, 68,0.8);    
+}
+
+h5 {
+    font-size: 1em;
+    margin: 30px 0 10px 0;
+    color:rgb(151, 144, 68); 
+}
+
+#cheers {
+    padding: 20px 0 0 20px;
+}
+
+#about ul{
+    list-style:initial;
+    padding-left: 20px;
+}
+
+#about li {
+    padding-top: 10px;
+}
+
+#about h5 {
+    padding-left: 20px;
+}
+
+.book1 {
+    font-size: 20px;
+}
+
+figcaption {
+    background: grey;
+    padding: 4px;
+    font-size: 0.8em;
+    font-style: italic;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav {
+    height: 30px;
+    background: white;
+    line-height: 30px;
+    clear: both;
+}
+
+nav ul {
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav li {
+    list-style-type: none;   
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+nav a {    
+    text-decoration: none;
+    color: black;
+    display: block;
+    background: rgb(209,192,123);
+    border: white solid;   
+}
+
+nav a:hover {
+    background: white;
+    border: rgb(209,192,123,0.75) solid;
+    color: black;
+}
+
+.index_blockquote {
+    color: black;
+    font-size: 1.25em;
+    font-family: serif;
+    font-style: italic;
+    background: rgb(151, 144, 68,0.8);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.about_blockquote {
+    color: black;
+    font-size: 1.25em;
+    font-family: serif;
+    font-style: italic;
+    background: rgb(151, 144, 68,0.8);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.image_right {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.left {
+    float: left;
+    margin-right: 20px;
+}
+.small {
+    width: 220px;
+}
+
+form {
+    max-width: 560px;
+}
+
+label {
+    display:block;
+    margin-bottom: 5px;
+    clear: both;
+}
+
+label.service{ 
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+label.comments{ 
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+fieldset {
+    border-color:dimgrey;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 25px;
+}
+
+input[type=submit] {
+    width: auto;
+    padding: 0 8px;
+}
+
+textarea {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+legend {
+    color:rgb(255,215,0);
+}
+
+input[type=radio],
+input[type=checkbox]{
+    display:inline;
+    width: auto;
+    height: auto;
+    margin-right: 4px;
+}
+
+input[type=checkbox] {
+    width: auto;
+    height: auto;
+    margin-right: 4px;
+    display:inline
+}
+
+form li {
+    list-style-type: none;
+    float: none;
+    margin-right: 8px;
+}
+
+form ul {
+    margin: 0 0 10px 12px;
+}
+
+
+.box {
+    width: 600px;
+    float: none;   
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+}
+
+.container {
+    clear: both;  
+    overflow: hidden;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.third {
+    height: 210px;
+    width: 33.333%;
+    float: left; 
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.third h3 {
+    text-transform: none;
+    font-size: 20px;
+    color:rgb(151, 144, 68);
+}
+
+.third h4 {
+    text-transform: none;
+    font-size: 18px;
+    color:rgb(151, 144, 68);
+}
+
+.third p {
+    text-transform: none;
+    font-size: 14px;
+    margin: 10px 5px 3px 5px;
+}
+
+.third a {
+    margin: 3px;
+}
+
+.third:nth-child(3) {
+    margin-right: 0;
+}
+
+footer {
+    height:30px;
+    line-height: 30px; 
+    clear:both;
+    background-color:rgb(151, 144, 68,0.8);
+    
+}
+
+footer ul {
+    color: black;
+    float:right;
+    font-size: 0.875em;
+    margin-left: 30px;
+}
+
+footer li {
+    list-style-type: none;
+    float:left;
+    margin-right: 60px;
+}
+
+/*DESKTOP*/
+@media all and (max-width:1400px) {
+    main {
+        width:64%;
+        float:left;
+    }
+
+    aside {
+        width:26%;
+        float:right;
+    }
+}
+
+/*TABLET*/
+@media all and (min-width:860px) and (max-width:1399px) {
+    div.wrapper {
+        width:90%;
+    }
+    
+    main {
+        width:64%;
+        float:left;
+        padding-left:2.5%;
+        padding-top: 2.5%;
+    }
+
+    aside {
+        width:26%;
+        float:right;
+        padding-right:2.5%;
+        padding-top: 2.5%;
+    }
+}
+
+/* PHONE */
+@media all and (max-width:850px) {
+    div.wrapper {
+        width:100%;
+    }
+    
+    main {
+        width:100%;
+        float:none;
+    }
+
+    aside {
+        width:100%;
+        float:none;
+    } 
+    #cssmenu > ul {
+    max-height: 32px;
+    overflow: hidden;
+    -webkit-transition: max-height 0.5s;
+    transition: max-height 0.5s;
+  }
+  #cssmenu.expand ul {
+    max-height: 900px;
+  }
+}
